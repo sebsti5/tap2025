@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aetheria - Elegance in Code</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="container">
+            <a href="#" class="logo">Aetheria</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#showcase">Showcase</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-switcher">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        
+        <video autoplay muted loop id="hero-video">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Elegance in Code</h1>
+            <p>Crafting digital experiences that are as beautiful as they are functional.</p>
+            <a href="#features" class="cta-button">Discover More</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Why Aetheria?</h2>
+                    <p>We don't just build websites, we build digital masterpieces.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                        <h3>Blazing Speed</h3>
+                        <p>Optimized for performance, ensuring a seamless user experience.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3>Ironclad Security</h3>
+                        <p>Robust security measures to protect your data and your users.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-drafting-compass"></i></div>
+                        <h3>Pixel-Perfect Design</h3>
+                        <p>Meticulous attention to detail, creating stunning visuals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="showcase" class="showcase">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Work</h2>
+                    <p>A glimpse into the world of Aetheria's creations.</p>
+                </div>
+                <div class="showcase-grid">
+                    <div class="showcase-item">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 1">
+                        <div class="showcase-overlay">
+                            <h3>Project One</h3>
+                            <p>A modern e-commerce platform.</p>
+                        </div>
+                    </div>
+                    <div class="showcase-item">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 2">
+                        <div class="showcase-overlay">
+                            <h3>Project Two</h3>
+                            <p>A sleek corporate website.</p>
+                        </div>
+                    </div>
+                    <div class="showcase-item">
+                        <img src="https://tafi-agent.com/static/photo_5456207117628338822_w-removebg-preview.png" alt="Project 3">
+                        <div class="showcase-overlay">
+                            <h3>Project Three</h3>
+                            <p>A vibrant portfolio website.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Let's Connect</h2>
+                    <p>Have a project in mind? We'd love to hear from you.</p>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Aetheria</h3>
+                    <p>Elegance in Code</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#showcase">Showcase</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aetheria. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
